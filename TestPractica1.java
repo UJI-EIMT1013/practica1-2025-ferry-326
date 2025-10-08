@@ -437,7 +437,7 @@ public class TestPractica1 {
         HashSet<Integer> col2_aux = new HashSet<>(col2);
         separate(col1_aux,col2_aux);
         System.out.println("Obtenido: ");
-        System.out.println("cuadrados: "+col1_aux+ " nocuadrados "+col2_aux);
+        System.out.println("cuadrados: "+col1_aux+ " no cuadrados "+col2_aux);
         assertEquals("separate: Respuesta incorrecta ", col1, col1_aux );
         assertEquals("separate: Respuesta incorrecta ", col2, col2_aux );
 
